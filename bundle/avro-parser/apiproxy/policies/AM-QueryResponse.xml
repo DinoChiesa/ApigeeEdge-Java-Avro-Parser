@@ -1,0 +1,12 @@
+<AssignMessage name='AM-QueryResponse'>
+  <Set>
+      <Payload contentType='application/json'
+               variablePrefix='%'
+               variableSuffix='#'><![CDATA[{
+  "status": "ok",
+  "data": %avro_result_json#
+}
+]]></Payload>
+  </Set>
+  <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</AssignMessage>

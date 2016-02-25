@@ -1,0 +1,12 @@
+<AssignMessage name='AM-StoreResponse'>
+  <Set>
+      <Payload contentType='application/json'
+               variablePrefix='%'
+               variableSuffix='#'><![CDATA[{
+  "status": "ok",
+  "listname": "%request.queryparam.name#"
+}
+]]></Payload>
+  </Set>
+  <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</AssignMessage>

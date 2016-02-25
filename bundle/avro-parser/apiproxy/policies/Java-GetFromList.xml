@@ -1,0 +1,8 @@
+<JavaCallout name='Java-GetFromList'>
+  <Properties>
+    <Property name="fieldnameVariable">extracted.fieldname</Property>
+    <Property name="sourceVariable">avro_list</Property>
+  </Properties>
+  <ClassName>com.dinochiesa.edgecallouts.ListExtractor</ClassName>
+  <ResourceURL>java://edge-avro-parse-callout.jar</ResourceURL>
+</JavaCallout>

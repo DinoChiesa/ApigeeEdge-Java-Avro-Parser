@@ -1,0 +1,17 @@
+<JavaCallout name='Java-ParseAvro'>
+  <Properties>
+    <!-- this resolves to a comma-separated list of field names. -->
+    <!-- Should be synchronized with the fields in the CSV passed as POST data -->
+    <Property name="schema">{"namespace": "example.avro",
+ "type": "record",
+ "name": "User",
+ "fields": [
+     {"name": "name", "type": "string"},
+     {"name": "favorite_number",  "type": ["int", "null"]},
+     {"name": "favorite_color", "type": ["string", "null"]}
+ ]
+}</Property>
+  </Properties>
+  <ClassName>com.dinochiesa.edgecallouts.AvroParser</ClassName>
+  <ResourceURL>java://edge-avro-parse-callout.jar</ResourceURL>
+</JavaCallout>

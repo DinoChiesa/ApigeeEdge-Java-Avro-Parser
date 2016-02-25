@@ -1,0 +1,9 @@
+<LookupCache name='Cache-RetrieveMap'>
+  <CacheResource>testcache</CacheResource>
+  <AssignTo>avro_list</AssignTo>
+  <Scope>Application</Scope>
+  <CacheKey>
+    <Prefix>avro</Prefix>
+    <KeyFragment ref='extracted.listname'/>
+  </CacheKey>
+</LookupCache>
