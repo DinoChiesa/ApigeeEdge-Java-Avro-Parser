@@ -1,7 +1,6 @@
 <JavaCallout name='Java-ParseAvro'>
   <Properties>
-    <!-- this resolves to a comma-separated list of field names. -->
-    <!-- Should be synchronized with the fields in the CSV passed as POST data -->
+    <!-- the policy retrieves from message.content -->
     <Property name="schema">{"namespace": "example.avro",
  "type": "record",
  "name": "User",

@@ -61,6 +61,11 @@ You do not need to build the source code to use this callout.  But you can build
   The above will build the JAR and  copy the generated JAR and its dependencies to the bundle directory.  
 
 
+## LICENSE
+
+This is licensed under the Apache 2.0 license. See the [LICENSE](LICENSE) file. 
+
+
 
 ## Bugs
 
